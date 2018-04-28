@@ -6,7 +6,7 @@ function handleClick(props) {
 }
 
 const Hello = props => {
-  return <h1 onClick={() => handleClick(props)}>Hello {props.name}!</h1>;
+  return <h1 onClick={() => handleClick(props)}>Hello1 {props.name}!</h1>;
 };
 
 function mapStateToProps(state) {
